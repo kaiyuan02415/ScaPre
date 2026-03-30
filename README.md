@@ -69,7 +69,7 @@ python -c "import torch; print(f'PyTorch {torch.__version__}, CUDA: {torch.cuda.
 **Object Unlearning (Imagenette)**
 
 ```bash
-python erase/erase.py \
+python edit/erase.py \
     --concepts "parachute, golf ball, garbage truck, cassette player, church, tench, \
     english springer, french horn, chain saw, gas pump" \
     --concept_type object \
@@ -83,7 +83,7 @@ python erase/erase.py \
 **Large-Scale Object / Style Unlearning**
 
 ```bash
-python erase/erase_scale.py \
+python edit/erase_scale.py \
     --concepts "artist1, artist2, ..." \
     --concept_type object \
     --device 0 \
@@ -100,7 +100,7 @@ python erase/erase_scale.py \
 **Explicit (NSFW) Content Unlearning**
 
 ```bash
-python erase/erase_scale.py \
+python edit/erase_scale.py \
     --concepts "nudity,nude,naked,..." \
     --concept_type unsafe \
     --device 0 \
@@ -116,7 +116,7 @@ python erase/erase_scale.py \
 **Object Erasure Evaluation**
 
 ```bash
-python benchmarking/object_erase.py \
+python eval/benchmarking/object_erase.py \
     --target "your_target" \
     --baseline concept-prune \
     --removal_mode erase \
@@ -126,7 +126,7 @@ python benchmarking/object_erase.py \
 **Nudity / Explicit Content Evaluation**
 
 ```bash
-python nudity_eval.py \
+python eval/benchmarking/nudity_eval.py \
     --ckpt_name your_saved_checkpoint.pt \
     --eval_dataset i2p \
     --output_dir results/nudity_eval
@@ -135,7 +135,7 @@ python nudity_eval.py \
 **Artistic Style Evaluation**
 
 ```bash
-python artist_erasure.py \
+python eval/benchmarking/artist_erasure.py \
     --ckpt_name your_saved_checkpoint.pt \
     --target "your_target" \
     --output_dir results/artist_eval
@@ -144,7 +144,7 @@ python artist_erasure.py \
 **COCO CLIP Score (Generative Quality)**
 
 ```bash
-python benchmarking/eval_coco_clip.py \
+python eval/benchmarking/eval_coco_clip.py \
     --prompt_file "datasets/coco_prompts.txt" \
     --ckpt_name "your_saved_checkpoint.pt" \
     --model_id "runwayml/stable-diffusion-v1-5" \
