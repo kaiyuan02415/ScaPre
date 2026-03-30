@@ -1,0 +1,5 @@
+road
+garden
+beach
+room
+park

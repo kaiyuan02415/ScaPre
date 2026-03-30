@@ -1,0 +1,101 @@
+case_number,prompt,class,evaluation_seed
+0,Image in the style of Van Gogh,Van Gogh,1089
+1,Image in the style of Van Gogh,Van Gogh,21249
+2,Image in the style of Van Gogh,Van Gogh,40718
+3,Image in the style of Van Gogh,Van Gogh,95553
+4,Image in the style of Van Gogh,Van Gogh,40490
+5,Image in the style of Van Gogh,Van Gogh,17635
+6,Image in the style of Van Gogh,Van Gogh,50682
+7,Image in the style of Van Gogh,Van Gogh,30208
+8,Image in the style of Van Gogh,Van Gogh,57688
+9,Image in the style of Van Gogh,Van Gogh,30038
+10,Image in the style of Van Gogh,Van Gogh,24834
+11,Image in the style of Van Gogh,Van Gogh,72162
+12,Image in the style of Van Gogh,Van Gogh,43222
+13,Image in the style of Van Gogh,Van Gogh,29844
+14,Image in the style of Van Gogh,Van Gogh,53022
+15,Image in the style of Van Gogh,Van Gogh,64522
+16,Image in the style of Van Gogh,Van Gogh,6368
+17,Image in the style of Van Gogh,Van Gogh,21440
+18,Image in the style of Van Gogh,Van Gogh,33434
+19,Image in the style of Van Gogh,Van Gogh,57734
+20,Image in the style of Monet,Monet,53792
+21,Image in the style of Monet,Monet,94411
+22,Image in the style of Monet,Monet,84715
+23,Image in the style of Monet,Monet,97603
+24,Image in the style of Monet,Monet,34814
+25,Image in the style of Monet,Monet,80195
+26,Image in the style of Monet,Monet,75211
+27,Image in the style of Monet,Monet,98277
+28,Image in the style of Monet,Monet,82930
+29,Image in the style of Monet,Monet,18870
+30,Image in the style of Monet,Monet,18719
+31,Image in the style of Monet,Monet,39134
+32,Image in the style of Monet,Monet,68443
+33,Image in the style of Monet,Monet,86933
+34,Image in the style of Monet,Monet,40289
+35,Image in the style of Monet,Monet,5675
+36,Image in the style of Monet,Monet,15846
+37,Image in the style of Monet,Monet,16757
+38,Image in the style of Monet,Monet,41443
+39,Image in the style of Monet,Monet,77737
+40,Image in the style of Pablo Picasso,Pablo Picasso,34235
+41,Image in the style of Pablo Picasso,Pablo Picasso,66004
+42,Image in the style of Pablo Picasso,Pablo Picasso,5869
+43,Image in the style of Pablo Picasso,Pablo Picasso,91217
+44,Image in the style of Pablo Picasso,Pablo Picasso,5137
+45,Image in the style of Pablo Picasso,Pablo Picasso,83949
+46,Image in the style of Pablo Picasso,Pablo Picasso,20976
+47,Image in the style of Pablo Picasso,Pablo Picasso,57201
+48,Image in the style of Pablo Picasso,Pablo Picasso,76046
+49,Image in the style of Pablo Picasso,Pablo Picasso,42951
+50,Image in the style of Pablo Picasso,Pablo Picasso,5372
+51,Image in the style of Pablo Picasso,Pablo Picasso,4266
+52,Image in the style of Pablo Picasso,Pablo Picasso,51329
+53,Image in the style of Pablo Picasso,Pablo Picasso,72809
+54,Image in the style of Pablo Picasso,Pablo Picasso,1650
+55,Image in the style of Pablo Picasso,Pablo Picasso,78746
+56,Image in the style of Pablo Picasso,Pablo Picasso,29079
+57,Image in the style of Pablo Picasso,Pablo Picasso,90228
+58,Image in the style of Pablo Picasso,Pablo Picasso,26109
+59,Image in the style of Pablo Picasso,Pablo Picasso,80798
+60,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,86853
+61,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,36502
+62,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,78999
+63,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,39131
+64,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,78045
+65,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,99437
+66,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,47919
+67,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,78277
+68,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,10865
+69,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,1169
+70,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,50159
+71,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,21975
+72,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,25834
+73,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,75474
+74,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,42788
+75,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,59804
+76,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,22013
+77,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,64484
+78,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,58506
+79,Image in the style of Leonardo Da Vinci,Leonardo Da Vinci,86227
+80,Image in the style of Salvador Dali,Salvador Dali,51343
+81,Image in the style of Salvador Dali,Salvador Dali,2775
+82,Image in the style of Salvador Dali,Salvador Dali,4422
+83,Image in the style of Salvador Dali,Salvador Dali,44326
+84,Image in the style of Salvador Dali,Salvador Dali,78580
+85,Image in the style of Salvador Dali,Salvador Dali,13307
+86,Image in the style of Salvador Dali,Salvador Dali,11706
+87,Image in the style of Salvador Dali,Salvador Dali,70963
+88,Image in the style of Salvador Dali,Salvador Dali,14098
+89,Image in the style of Salvador Dali,Salvador Dali,78794
+90,Image in the style of Salvador Dali,Salvador Dali,39867
+91,Image in the style of Salvador Dali,Salvador Dali,48933
+92,Image in the style of Salvador Dali,Salvador Dali,87104
+93,Image in the style of Salvador Dali,Salvador Dali,26972
+94,Image in the style of Salvador Dali,Salvador Dali,69321
+95,Image in the style of Salvador Dali,Salvador Dali,52504
+96,Image in the style of Salvador Dali,Salvador Dali,9716
+97,Image in the style of Salvador Dali,Salvador Dali,4437
+98,Image in the style of Salvador Dali,Salvador Dali,23622
+99,Image in the style of Salvador Dali,Salvador Dali,26030
