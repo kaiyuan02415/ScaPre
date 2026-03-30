@@ -16,10 +16,10 @@
 
 ## Introduction
 
-Existing multi-concept unlearning methods in text-to-image diffusion models face three critical challenges when scaling up: **(i)** conflicting weight updates that degrade generative quality, **(ii)** imprecise unlearning that damages similar non-target concepts, and **(iii)** reliance on extra data or auxiliary modules that bottleneck scalability. We propose **ScaPre**, a unified closed-form framework that addresses all three issues simultaneously. ScaPre introduces a **conflict-aware stable design** (spectral trace regularizer + geometry alignment) to stabilize optimization, and an **Informax Decoupler** to confine updates to concept-relevant subspaces. It requires no additional data or sub-models, completing unlearning of 50 concepts in only **120 seconds**, and can forget up to **×5 more concepts** than the best baseline within acceptable generative quality.
+Existing multi-concept unlearning methods in t2i diffusion models face three critical challenges when scaling up: **(i)** conflicting weight updates that degrade generative quality, **(ii)** imprecise unlearning that damages similar non-target concepts, and **(iii)** reliance on extra data or auxiliary modules that bottleneck scalability. We propose **ScaPre**, a unified closed-form framework that addresses all three issues simultaneously. ScaPre introduces a **conflict-aware stable design** (spectral trace regularizer + geometry alignment) to stabilize optimization, and an **Informax Decoupler** to confine updates to concept-relevant subspaces. It requires no additional data or sub-models, completing unlearning of 50 concepts in only **120 seconds**, and can forget up to **×5 more concepts** than the best baseline within acceptable generative quality.
 
 <p align="center">
-  <img src="imgs/intro.png" width="95%">
+  <img src="imgs/Intro.png" width="95%">
 </p>
 <p align="center"><em>As the number of unlearned concepts increases, existing methods either fail to forget or suffer severe quality degradation. ScaPre maintains both stable unlearning and high generative quality.</em></p>
 
@@ -34,7 +34,7 @@ Existing multi-concept unlearning methods in text-to-image diffusion models face
 
 ### Prerequisites
 
-- [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+- [Anaconda](https://www.anaconda.com/download) 
 - NVIDIA GPU with CUDA 12.4 support
 
 ### Setup
